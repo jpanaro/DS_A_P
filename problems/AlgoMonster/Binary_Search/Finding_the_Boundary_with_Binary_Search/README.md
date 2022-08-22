@@ -45,3 +45,7 @@ time.
 ### Space
 
 Binary search has a space complexity of O(n).
+
+## Notes
+
+- ==If you need to find the "first", "minimum", "maximum" of a sorted array, boundary binary search is usually the key==

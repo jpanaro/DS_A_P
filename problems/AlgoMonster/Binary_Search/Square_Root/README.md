@@ -36,6 +36,6 @@ Add when I complete a valid solution.
 
 ## Notes
 
-Similar to previous problems we can break this down into a "True/False" array where we seek the boundary.
+- Similar to previous problems we can break this down into a "True/False" array where we seek the boundary.
 
-==Don't get stuck thinking all boundary problems call for you to update the left and right pointers the same ways.==
+- ==Don't get stuck thinking all boundary problems require you to update the left and right pointers the same ways.==
