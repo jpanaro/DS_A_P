@@ -24,24 +24,22 @@ Explanation: 6 does not exists in the array.
 
 ## Intuition
 
-My immediate inclination was to implement a loop using `enumerate` and check the target against each value starting from index `0`. This was not an option as any solution had to include a binary search implementation so despite passing all tests I quickly abandoned this idea. Next, I figured I would be able to effectively mimic my solution for the "Finding the Boundary with Binary Search" problem but this quickly proved to be fruitless. Ultimately I ran out of time before getting the correct solution.
+My immediate inclination (similar to the previous problem "First Element Not Smaller than Target") was to implement a loop using `enumerate` and check the target against each value starting from index `0`. Like before this is not a valid solution. Now that I had knowledge of how to implement a binary search with boundary properly I decided to pursue that course with a minor adjustment detailed below.
 
 ## Implementation
 
-No valid implementation, revisit
+This solution involves a vanilla binary search implementation with an extra variable `boundary` that represents the leftmost true's index currently recorded. If the current element is true, then we update `boundary` with its index and discard everything to the right including the current element itself since its index has been recorded by the variable. Here, we only updated `boundary` if our current value of interest was equivalent to out target. Otherwise we just updated the left and right pointer variables like normal.
 
 ## Complexity
 
 ### Time
 
-Add when I complete a valid solution.
+O(log(n))
 
 ### Space
 
-Add when I complete a valid solution.
+O(n)
 
 ## Notes
 
-Similar to previous problems we can break this down into a "True/False" array where we seek the boundary.
-
-The proper solution involved implementing an extra value titled `boundary`. We keep a variable `boundary` that represents the leftmost true's index currently recorded. If the current element is true, then we update boundary_index with its index and discard everything to the right including the current element itself since its index has been recorded by the variable.
+Similar to previous problem "First Element Not Smaller than Target" we can break this down into a "True/False" array where we seek the boundary. The differentiatior is explained in the "Implementation" section above.
