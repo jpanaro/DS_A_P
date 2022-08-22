@@ -13,4 +13,5 @@
 
 ## Implicitly Sorted Array
 
-1. Find Minimum in Rotated Sorted Array
+1. Find Minimum in Rotated Sorted Array :x:
+2. The Peak of a Mountain Array :white_check_mark:

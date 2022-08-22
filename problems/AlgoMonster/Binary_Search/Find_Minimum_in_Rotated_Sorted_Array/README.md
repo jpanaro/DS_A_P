@@ -40,4 +40,6 @@ O(n)
 
 - ==Always look for a way to "convert" the input array into two sequential groups of True and False with a boundary. You may have to get creative.==
 
+- ==Binary search can work beyond sorted arrays, as long as there is a binary decision we can use to shrink the search range.==
+
 - Visualizing the input array may help you uncover a path forward.
