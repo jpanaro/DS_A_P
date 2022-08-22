@@ -28,7 +28,7 @@ My immediate inclination was to implement a loop using `enumerate` and check the
 
 ## Implementation
 
-No valid implementation, revisit
+No valid implementation, revisit.
 
 ## Complexity
 
