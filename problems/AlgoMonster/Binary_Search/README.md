@@ -15,3 +15,8 @@
 
 1. Find Minimum in Rotated Sorted Array :x:
 2. The Peak of a Mountain Array :white_check_mark:
+
+## Advanced
+
+1. Capacity to Ship Packages Within D Days :x:
+2. Newspapers :white_check_mark:
