@@ -1,6 +1,6 @@
 # Binary Search Problems
 
-## Overview
+## Problem Overview
 
 1. Vanilla Binary Search :white_check_mark:
 2. Finding the Boundary with Binary Search :white_check_mark:
@@ -20,3 +20,8 @@
 
 1. Capacity to Ship Packages Within D Days :x:
 2. Newspapers :white_check_mark:
+
+## Critical Notes
+
+- If you are given a sorted array then binary search or two pointers can be effectively employed in most cases
+- Binary search can work beyond sorted arrays, as long as there is a binary decision we can use to shrink the search range
